@@ -70,7 +70,7 @@ body {
 	padding-bottom: 17px;
 	padding-left: 1.5%;
 	padding-right: 1.5%;
-	font-size: medium;
+	font-size: 1.1vw;
 	background-color: rgb(211,224,224);
 }
 
@@ -131,6 +131,7 @@ body {
 .content {
 	width: 92%;
 	margin: 97px auto 0px auto;
+	font-size: 1.1vw;
 }
 
 .footer {
