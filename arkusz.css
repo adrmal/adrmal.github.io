@@ -96,7 +96,9 @@ body {
 }
 
 .content {
-	width: 72%;
+	width: 71.5%;
+	padding-left: 1.75%;
+	padding-right: 1.75%;
 }
 
 .footer {
@@ -112,7 +114,9 @@ body {
 }
 
 .content {
-	width: 82%;
+	width: 81%;
+	padding-left: 2%;
+	padding-right: 2%;
 }
 
 .footer {
@@ -129,9 +133,10 @@ body {
 }
 
 .content {
-	width: 92%;
+	width: 89%;
 	margin: 97px auto 0px auto;
-	font-size: 1.1vw;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .footer {
@@ -152,5 +157,29 @@ body {
 	margin-left: 0px;
 }
 
+}
+
+@media all and (max-width: 500px) {
+	
+.main-menu {
+	padding: 0px;
+}
+
+.main-menu-logo {
+	position: relative;
+	top: 0px;
+}
+
+.main-menu-element {
+	display: block;
+}
+	
+.content {
+	width: 87%;
+	margin: 219px auto 0px auto;
+	padding-left: 4%;
+	padding-right: 4%;
+}
+	
 }
 
