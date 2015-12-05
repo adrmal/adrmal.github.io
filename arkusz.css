@@ -1,15 +1,155 @@
 body {
 	font-family: Calibri;
 	font-size: 11pt;
+	margin: 0px;
+	background-color: rgb(44,74,74);
+}
+
+.universum {
+	margin: 0px auto 0px auto;
+	vertical-align: top;
+	padding: 0px;
+}
+
+.main-menu-wrapper {
+	width: 100%;
+	position: fixed;
+	top: 0px;
 }
 
 .main-menu {
-	background-color: rgb(28,23,66);
+	width: 70%;
+	background-color: rgb(80,190,190);
 	color: white;
 	font-variant: small-caps;
 	font-size: 12pt;
-	padding: 10px;
-	margin: 0 auto 0 auto;
-	position: static;
-	top: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px auto 0px auto;
 }
+
+.main-menu-logo {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: rgb(144,51,52);
+	margin: 0px;
+	color: white;
+	text-decoration: none;
+}
+
+.main-menu-element {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: rgb(80,190,190);
+	margin-left: -4px;
+	color: white;
+	text-decoration: none;
+}
+
+.main-menu-element:hover  {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background-color: #978DD8;
+	margin-left: -4px;
+	color: white;
+	text-decoration: none;
+}
+
+.content {
+	width: 67%;
+	height: 1000px;
+	margin: 55px auto 0px auto;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	padding-left: 1.5%;
+	padding-right: 1.5%;
+	background-color: rgb(211,224,224);
+}
+
+.header {
+	font-size: 13pt;
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.footer {
+	width: 70%;
+	margin: 15px auto 0px auto;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	background-color: orange;
+	text-align: center;
+}
+
+@media screen and (max-width: 1250px) {
+
+.main-menu {
+	width: 75%;
+}
+
+.content {
+	width: 72%;
+}
+
+.footer {
+	width: 75%;
+}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+.main-menu {
+	width: 85%;
+}
+
+.content {
+	width: 82%;
+}
+
+.footer {
+	width: 85%;
+}
+
+}
+
+@media screen and (max-width: 700px) {
+
+.main-menu {
+	width: 95%;
+	text-align: center;
+}
+
+.content {
+	width: 92%;
+	margin: 97px auto 0px auto;
+}
+
+.footer {
+	width: 95%;
+}
+
+.main-menu-logo {
+	display: block;
+	position: relative;
+	top: -10px;
+}
+
+.main-menu-element {
+	margin-left: 0px;
+}
+
+.main-menu-element:hover  {
+	margin-left: 0px;
+}
+
+}
+
