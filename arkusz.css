@@ -24,20 +24,15 @@ body {
 	font-size: 12pt;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-top: 0px;
+	padding-bottom: 0px;
 	margin: 0px auto 0px auto;
 }
 
 .main-menu-logo {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 2%;
-	padding-right: 2%;
 	background-color: rgb(144,51,52);
 	margin: 0px;
-	color: white;
-	text-decoration: none;
+	padding: 0px;
 }
 
 .main-menu-element {
@@ -46,9 +41,11 @@ body {
 	padding-left: 2%;
 	padding-right: 2%;
 	background-color: rgb(80,190,190);
-	margin-left: -4px;
+	margin-left: -3px;
 	color: white;
 	text-decoration: none;
+	position: relative;
+	top: -10px;
 }
 
 .main-menu-element:hover  {
@@ -56,8 +53,8 @@ body {
 	padding-bottom: 10px;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color: #978DD8;
-	margin-left: -4px;
+	background-color: rgb(87,166,166);
+	margin-left: -3px;
 	color: white;
 	text-decoration: none;
 }
