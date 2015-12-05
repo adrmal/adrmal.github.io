@@ -3,3 +3,13 @@ body {
 	font-size: 11pt;
 }
 
+.main-menu {
+	background-color: rgb(28,23,66);
+	color: white;
+	font-variant: small-caps;
+	font-size: 12pt;
+	padding: 10px;
+	margin: 0 auto 0 auto;
+	position: static;
+	top: 0px;
+}
