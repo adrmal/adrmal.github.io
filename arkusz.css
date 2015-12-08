@@ -1,7 +1,7 @@
 body {
 	font-family: Calibri;
 	margin: 0px;
-	background-color: rgb(44,74,74);
+	background-color: rgb(33,64,74);
 }
 
 .universum {
@@ -88,10 +88,11 @@ body {
 
 .footer {
 	width: 70%;
-	margin: 15px auto 0px auto;
+	margin: 0px auto 0px auto;
 	padding-top: 17px;
 	padding-bottom: 17px;
-	background-color: orange;
+	background-color: none;
+	color: rgb(220,220,220);
 	text-align: center;
 }
 
