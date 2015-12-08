@@ -6,8 +6,6 @@ body {
 
 .universum {
 	margin: 0px auto 0px auto;
-	vertical-align: top;
-	padding: 0px;
 }
 
 .main-menu-wrapper {
@@ -22,39 +20,50 @@ body {
 	color: white;
 	font-variant: small-caps;
 	font-size: 12pt;
-	padding-left: 0px;
-	padding-right: 0px;
-	padding-top: 0px;
-	padding-bottom: 0px;
+	padding: 0px;
 	margin: 0px auto 0px auto;
 }
 
 .main-menu-logo {
-	background-color: rgb(144,51,52);
-	margin: 0px;
-	padding: 0px;
+	background-color: white;
+	display: inline-block;
+	vertical-align: central;
+	padding-bottom: 7px;
+	padding-top: 5px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main-menu-logo a {
+	color: rgb(80,190,190);
+	text-decoration: none;
+	background-color: none;
+	font-variant: normal;
+	font-size: 15pt;
+	font-family: Ubuntu;
+	font-weight: lighter;
 }
 
 .main-menu-element {
-	padding-top: 10px;
-	padding-bottom: 10px;
 	padding-left: 2%;
 	padding-right: 2%;
+	padding-bottom: 10px;
+	padding-top: 10px;
 	background-color: rgb(80,190,190);
-	margin-left: -3px;
+	margin-left: -4px;
+	display: inline-block;
+}
+
+.main-menu-element a {
 	color: white;
 	text-decoration: none;
-	position: relative;
-	top: -10px;
 }
 
 .main-menu-element:hover  {
-	padding-top: 10px;
-	padding-bottom: 10px;
-	padding-left: 2%;
-	padding-right: 2%;
 	background-color: rgb(87,166,166);
-	margin-left: -3px;
+}
+
+.main-menu-element a:hover {
 	color: white;
 	text-decoration: none;
 }
@@ -62,12 +71,12 @@ body {
 .content {
 	width: 67%;
 	height: 1000px;
-	margin: 55px auto 0px auto;
+	margin: 56px auto 0px auto;
 	padding-top: 17px;
 	padding-bottom: 17px;
 	padding-left: 1.5%;
 	padding-right: 1.5%;
-	font-size: 1.1vw;
+	font-size: medium;
 	background-color: rgb(211,224,224);
 }
 
@@ -131,7 +140,7 @@ body {
 
 .content {
 	width: 89%;
-	margin: 97px auto 0px auto;
+	margin: 94px auto 0px auto;
 	padding-left: 3%;
 	padding-right: 3%;
 }
@@ -142,8 +151,8 @@ body {
 
 .main-menu-logo {
 	display: block;
-	position: relative;
-	top: -10px;
+	margin-right: 3px;
+	margin-left: 3px;
 }
 
 .main-menu-element {
@@ -162,18 +171,13 @@ body {
 	padding: 0px;
 }
 
-.main-menu-logo {
-	position: relative;
-	top: 0px;
-}
-
 .main-menu-element {
 	display: block;
 }
 	
 .content {
 	width: 87%;
-	margin: 219px auto 0px auto;
+	margin: 217px auto 0px auto;
 	padding-left: 4%;
 	padding-right: 4%;
 }
