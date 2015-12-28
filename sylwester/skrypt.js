@@ -1,5 +1,5 @@
 function countdown() {
-	var time = Date.parse(new Date(2015, 11, 28, 23, 50, 0, 0)) - Date.parse(new Date());
+	var time = Date.parse(new Date(2015, 11, 31, 20, 0, 0, 0)) - Date.parse(new Date());
 	
 	if(time > 0) {
 		var days = Math.floor( time / (1000*60*60*24) );
