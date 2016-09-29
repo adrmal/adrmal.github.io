@@ -1,187 +1,50 @@
 body {
-	font-family: Calibri;
-	margin: 0px;
-	background-color: rgb(33,64,74);
+	font-family: Roboto;
+	background-color: rgb(28,34,53);
+	position: relative;
+	top: -8px;
 }
 
 .universum {
-	margin: 0px auto 0px auto;
-}
-
-.main-menu-wrapper {
-	width: 100%;
-	position: fixed;
-	top: 0px;
-}
-
-.main-menu {
 	width: 70%;
-	background-color: rgb(80,190,190);
-	color: white;
-	font-variant: small-caps;
-	font-size: 12pt;
-	padding: 0px;
 	margin: 0px auto 0px auto;
+	background-color: rgb(240,240,240);
+	padding-top: 40px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
 }
 
-.main-menu-logo {
-	background-color: white;
-	display: inline-block;
-	vertical-align: central;
-	padding-bottom: 7px;
-	padding-top: 5px;
-	padding-left: 15px;
-	padding-right: 15px;
-}
-
-.main-menu-logo a {
-	color: rgb(80,190,190);
-	text-decoration: none;
-	background-color: none;
-	font-variant: normal;
-	font-size: 15pt;
-	font-family: Ubuntu;
+.title {
+	font-size: 30pt;
 	font-weight: lighter;
 }
 
-.main-menu-element {
-	padding-left: 2%;
-	padding-right: 2%;
-	padding-bottom: 10px;
-	padding-top: 10px;
-	background-color: rgb(80,190,190);
-	margin-left: -4px;
-	display: inline-block;
+img {
+	height: 26px;
+	position: relative;
+	top: 6px;
+	margin-right: 15px;
 }
 
-.main-menu-element a {
-	color: white;
+.description {
+	font-size: 14pt;
 	text-decoration: none;
+	color: black;
 }
 
-.main-menu-element:hover  {
-	background-color: rgb(87,166,166);
-}
-
-.main-menu-element a:hover {
-	color: white;
-	text-decoration: none;
-}
-
-.content {
-	width: 67%;
-	height: 1000px;
-	margin: 56px auto 0px auto;
-	padding-top: 17px;
-	padding-bottom: 17px;
-	padding-left: 1.5%;
-	padding-right: 1.5%;
-	font-size: medium;
-	background-color: rgb(211,224,224);
-}
-
-.header {
-	font-size: 13pt;
-	font-weight: bold;
-	padding-bottom: 10px;
+.description:hover {
+	color: rgb(213,25,28);
 }
 
 .footer {
 	width: 70%;
 	margin: 0px auto 0px auto;
-	padding-top: 17px;
-	padding-bottom: 17px;
-	background-color: none;
-	color: rgb(220,220,220);
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: rgb(240,240,240);
 	text-align: center;
+	font-size: 11pt;
 }
-
-@media all and (max-width: 1250px) {
-
-.main-menu {
-	width: 75%;
-}
-
-.content {
-	width: 71.5%;
-	padding-left: 1.75%;
-	padding-right: 1.75%;
-}
-
-.footer {
-	width: 75%;
-}
-
-}
-
-@media all and (max-width: 1100px) {
-
-.main-menu {
-	width: 85%;
-}
-
-.content {
-	width: 81%;
-	padding-left: 2%;
-	padding-right: 2%;
-}
-
-.footer {
-	width: 85%;
-}
-
-}
-
-@media all and (max-width: 700px) {
-
-.main-menu {
-	width: 95%;
-	text-align: center;
-}
-
-.content {
-	width: 89%;
-	margin: 94px auto 0px auto;
-	padding-left: 3%;
-	padding-right: 3%;
-}
-
-.footer {
-	width: 95%;
-}
-
-.main-menu-logo {
-	display: block;
-	margin-right: 3px;
-	margin-left: 3px;
-}
-
-.main-menu-element {
-	margin-left: 0px;
-}
-
-.main-menu-element:hover  {
-	margin-left: 0px;
-}
-
-}
-
-@media all and (max-width: 500px) {
-	
-.main-menu {
-	padding: 0px;
-}
-
-.main-menu-element {
-	display: block;
-}
-	
-.content {
-	width: 87%;
-	margin: 217px auto 0px auto;
-	padding-left: 4%;
-	padding-right: 4%;
-}
-	
-}
-
