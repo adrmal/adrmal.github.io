@@ -1,0 +1,71 @@
+body {
+	font-family: Roboto;
+	color: black;
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+}
+
+.action-bar {
+	background-color: #689f38;
+	color: white;
+	font-weight: 500;
+	padding: 18px;
+	box-shadow: 0px 3px 5px 0px #BBBBBB;
+}
+
+.action-bar i {
+	margin-right: 22px;
+	margin-left: 6px;
+	position: relative;
+	top: 2px;
+	
+}
+
+.action-bar span {
+	position: relative;
+	top: -3px;
+	font-size: 14pt;
+}
+
+.action-bar a {
+	color: white;
+	text-decoration: none;
+}
+
+.list-title {
+	font-size: 12pt;
+	font-weight: bold;
+	color: rgb(150,150,150);
+	padding-top: 20px;
+	padding-bottom: 40px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.list-element {
+	font-size: 14pt;
+	padding-bottom: 25px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.list-divider {
+	border: 1px solid rgb(240,240,240);
+}
+
+.fab {
+	position: fixed;
+	bottom: 40px;
+	right: 50px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 50%;
+	background-color: #d84315;
+	color: white;
+	display: inline;
+	font-size: 30pt;
+	box-shadow: 4px 5px 5px #BBBBBB;
+}
