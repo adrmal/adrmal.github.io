@@ -28,9 +28,14 @@ body {
 	margin-bottom: 20px;
 }
 
+#subtitle-links {
+	margin-top: -20px;
+}
+
 .skill-image {
 	height: 70px;
 	margin-right: 20px;
+	margin-bottom: 20px;
 }
 
 .link-image {
@@ -105,7 +110,6 @@ body {
 
 .skill-image {
 	height: 50px;
-	margin-right: 20px;
 }
 
 .footer {
