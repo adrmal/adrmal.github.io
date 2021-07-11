@@ -4,16 +4,17 @@ body {
 	background-color: rgb(28,34,53);
 	position: relative;
 	top: -8px;
+	margin: 0px;
 }
 
 .universum {
-	width: 70%;
+	width: 80%;
 	margin: 0px auto 0px auto;
 	background-color: rgb(240,240,240);
-	padding-top: 40px;
-	padding-bottom: 50px;
-	padding-left: 40px;
-	padding-right: 40px;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	padding-left: 3%;
+	padding-right: 3%;
 }
 
 .title {
@@ -30,17 +31,6 @@ body {
 .skill-image {
 	height: 70px;
 	margin-right: 20px;
-}
-
-.skill-description {
-	font-size: 14pt;
-	text-decoration: none;
-	position: relative;
-	top: -22px;
-}
-
-.skill-description:hover {
-	color: rgb(213,25,28);
 }
 
 .link-image {
@@ -62,26 +52,66 @@ body {
 }
 
 .footer {
-	width: 70%;
+	width: 86%;
 	margin: 0px auto 0px auto;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	padding-left: 40px;
-	padding-right: 40px;
 	background-color: rgb(240,240,240);
 	text-align: center;
 	font-size: 11pt;
 }
 
-@media (max-width: 700px) {
-	
-#left {
-	float: none;
+@media (max-width: 1000px) {
+
+.universum {
+	width: 94%;
+	padding-left: 3%;
+	padding-right: 3%;
+	padding-top: 3%;
+	padding-bottom: 3%;
 }
 
-#right {
-	margin-top: 35px;
-	float: none;
+.footer {
+	width: 100%;
 }
-	
+
+}
+
+@media (max-width: 900px) {
+
+.universum {
+	width: 92%;
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 4%;
+	padding-bottom: 4%;
+}
+
+.footer {
+	width: 100%;
+}
+
+}
+
+@media (max-width: 700px) {
+
+.universum {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.skill-image {
+	height: 50px;
+	margin-right: 20px;
+}
+
+.footer {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
 }
